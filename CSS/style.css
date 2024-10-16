@@ -1,0 +1,905 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    height: 100%;
+  }
+
+.navbar {
+  background-color: white; 
+  padding: 10px 0; 
+  border-bottom: 2px solid #ddd; 
+}
+
+.navbar-brand img {
+  width: 340px; 
+  height: auto;
+}
+
+/* Navigation links styling */
+.navbar-nav {
+  margin-right: auto; /* Push navigation links to the right */
+  display: flex; /* Align items in a single line */
+  align-items: center; /* Center the links vertically */
+}
+
+.nav-item {
+  margin-right: 20px; /* Add spacing between nav links */
+}
+
+.nav-link {
+  color: #555; /* Text color of the nav links */
+  font-size: 20px; /* Adjust the font size */
+  font-weight: bold; /* Bold font for links */
+  text-transform: capitalize; /* Capitalize first letter */
+  padding: 5px 10px; /* Padding for spacing around the links */
+}
+
+.nav-link:hover {
+  color: #a83232; /* Hover effect: change text color to red */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.nav-link.selected {
+  color: #a83232; /* Active link color (red) */
+  border-bottom: 3px solid #a83232; /* Active link underlined in red */
+}
+
+/* Header Banner Styling */
+.header-banner {
+  background-color: #a83232; /* Red background for header */
+  color: white; /* White text color */
+  text-align: center; /* Center-align the content */
+  padding: 50px 0; /* Padding for spacing */
+  font-size: 36px; /* Font size for the header text */
+  font-weight: bold; /* Bold font */
+}
+
+.header-banner img {
+  width: 100px; /* Optional: Adjust size of any images in the banner */
+  height: auto;
+}
+  
+   
+  #Pre-header {
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 600px;
+  }
+   
+ 
+  #header .container {
+    width: 37%;
+    margin-right: 0;
+    padding: 30px 35px 40px 10px;
+    text-align: left;
+  }
+   
+  #header .container h1 {
+    color: darkred;
+    margin-top: 100px;
+  }
+   
+  #header .container h4 {
+    color: rgb(51, 58, 65);
+    line-height: 1.4em;
+    margin-bottom: 20px;
+  }
+   
+  #header .more {
+    color: darkorange;
+    background: rgb(51, 58, 65);
+    font-size: 18px;
+    padding: 5px 35px 5px 35px;
+    margin-left: 0px 18px 0px 5px;
+    border-radius: 5px;
+  }
+   
+  #header .more:hover {
+    color: red;
+    transition: color 0.5s;
+  } 
+   
+   
+  #header {
+    background-image: url(../imgs/header2.jpg);
+    background-position: center center;
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 500px;
+  }
+   
+  #header .container {
+    width: 37%;
+    margin-right: 0;
+    padding: 30px 35px 40px 10px;
+    text-align: left;
+  }
+   
+  #header .container h1 {
+    color: darkred;
+    margin-top: 100px;
+  }
+   
+  #header .container h4 {
+    color: rgb(51, 58, 65);
+    line-height: 1.4em;
+    margin-bottom: 20px;
+  }
+   
+  #header .more {
+    color: darkorange;
+    background: rgb(51, 58, 65);
+    font-size: 18px;
+    padding: 5px 35px 5px 35px;
+    margin-left: 0px 18px 0px 5px;
+    border-radius: 5px;
+  }
+   
+  #header .more:hover {
+    color: red;
+    transition: color 0.5s;
+  }
+  #sub-header {
+    width: 100%;
+    height: auto;
+    background-color: blue; 
+}
+
+#sub-header .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#sub-header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.swiper-container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 40px 0;
+  background: #f3f4f6;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Swiper Wrapper */
+.swiper-wrapper {
+  display: flex;
+}
+
+/* Individual Slide Styling */
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  padding: 20px;
+  margin: 0 15px; /* Spacing between slides */
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.swiper-slide:hover {
+  transform: scale(1.05);
+}
+
+/* Slide Image */
+.slide-image {
+  width: 100%;
+  height: 150px; /* Adjust height for a consistent look */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 230px;
+}
+
+/* Card Style for Testimonial Cards */
+.card {
+  background: #fff;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100px; /* Reduce width */
+}
+
+.card-btn {
+  width: 150px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  font-size: 20px; /* Adjust font size */
+  padding: 10px 20px; /* Add padding for better sizing */
+  background-color: #ff4d4d; /* Set background color (Optional) */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 8px; /* Add rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+/* Add hover effect for buttons */
+.card-btn:hover {
+  transform: scale(1.1); /* Slightly enlarge the button when hovered */
+  background-color: #e63946; /* Optional hover color */
+}
+
+/* Card Heading */
+.card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color:red ;
+  margin-bottom: 10px;
+}
+
+/* Card Description */
+.card p {
+  font-size: 24px;
+  color: black;
+}
+
+/* Swiper Navigation Arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  top: 50%;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+/* Adjust Arrow Icons */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px;
+  color: white;
+}
+
+/* Pagination Styling */
+.swiper-pagination-bullet {
+  background: #007aff;
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  background: #005bb5;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+      width: 90%; 
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+      display: none; 
+  }
+}
+   
+  #Guide {
+    overflow: hidden;
+    padding-top: 50px;
+    color: darkred;
+  }
+  #Guide .container {
+    display: flex;
+    justify-content: center; 
+  }
+  #Guide .box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center; 
+  }
+  #Guide img {
+    margin-bottom: 10px; 
+  }
+  #Guide p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  #Guide h2:last-child {
+    margin-bottom: 10px; 
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #b5b9b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #890a0a;
+  }
+  
+  #header {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#header .container {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden; 
+}
+
+#header img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    display: block; 
+}
+
+  
+
+#footer {
+  background-color: #343a40; /* Dark background */
+  padding: 20px 0; /* Space between the top and bottom of the footer */
+}
+
+#footer .container {
+  display: flex;
+  justify-content: space-between; /* Spacing between elements */
+  align-items: center; /* Vertically align elements */
+  flex-wrap: wrap; /* Wrap elements on smaller screens */
+}
+
+
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+  flex: 1; /* Ensure the menu items take up space evenly */
+}
+
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin: 0 20px; /* Space between menu items */
+}
+
+.footer-menu li a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.footer-menu li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .footer-menu {
+      flex-direction: column; /* Stack vertically on smaller screens */
+      text-align: center;
+  }
+
+  .footer-menu li {
+      display: block;
+      margin: 10px 0;
+  }
+}
+/*styling for About us */
+#team-members {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 50px 0; /* Add padding */
+  text-align: center; /* Center-align content */
+}
+ 
+.team-member {
+  background-color: #fff; /* White background color for each member */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  margin-bottom: 30px; /* Add space between members */
+}
+ 
+.team-member:hover {
+  transform: translateY(-10px); /* Move up on hover */
+}
+ 
+.team-member img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Make images circular */
+  margin-bottom: 20px; /* Add some space below the image */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Add shadow to images */
+}
+ 
+.team-member h4 {
+  font-size: 1.5rem; /* Larger font size for member names */
+  margin-bottom: 10px; /* Add space below the name */
+  color: #333; /* Dark text color */
+}
+ 
+.team-member p {
+  font-size: 1rem; /* Regular font size for additional info */
+  color: #666; /* Slightly lighter text color */
+}
+ 
+/* Style for LinkedIn and GitHub icons */
+.team-member a img {
+  margin-right: 10px; /* Add space between icons */
+  width: 30px; /* Set width for icons */
+  height: 30px; /* Set height for icons */
+  justify-content: center; /* Center icons horizontally */
+}
+
+/* Style for ERD */
+.erd {
+  background-color: #fff; /* White background color for each member */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  margin-bottom: 30px; /* Add space between members */
+}
+
+.erd:hover {
+  transform: translateY(-10px); /* Move up on hover */
+}
+
+.erd img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px; /* Add some space below the image */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Add shadow to images */
+}
+
+.erd h4 {
+  font-size: 1.5rem; /* Larger font size for member names */
+  margin-bottom: 10px; /* Add space below the name */
+  color: #333; /* Dark text color */
+}
+
+.erd p {
+  font-size: 1rem; /* Regular font size for additional info */
+  color: #666; /* Slightly lighter text color */
+}
+
+/* Style for LinkedIn and GitHub icons */
+.erd a img {
+  margin-right: 10px; /* Add space between icons */
+  width: 30px; /* Set width for icons */
+  height: 30px; /* Set height for icons */
+  justify-content: center; /* Center icons horizontally */
+}
+#navigator .container .path {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  font-size: 22px;
+  padding: 10px 20px 10px 30px;
+  margin: 30px 0px 30px 0px;
+  width: 100%;
+}
+#footer {
+  background-color: #343a40; /* Dark background */
+  padding: 50px 0; /* Space between the top and bottom of the footer */
+}
+
+#footer .container {
+  display: flex;
+  justify-content: space-between; /* Spacing between elements */
+  align-items: center; /* Vertically align elements */
+  flex-wrap: wrap; /* Wrap elements on smaller screens */
+}
+
+
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+  flex: 1; /* Ensure the menu items take up space evenly */
+}
+
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin: 0 100px; /* Space between menu items */
+}
+
+.footer-menu li a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.footer-menu li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .footer-menu {
+      flex-direction: column; /* Stack vertically on smaller screens */
+      text-align: center;
+  }
+
+  .footer-menu li {
+      display: block;
+      margin: 10px 0;
+  }
+}
+/* Container for the cards */
+/* Container for the cards */
+/* Container for the cards */
+/* Container for the cards */
+/* .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  gap: 20px; 
+  padding: 20px;
+  margin-left: 0; 
+  margin-right: 0; 
+  width: 100%; 
+  max-width: 1200px; 
+  box-sizing: border-box; 
+} */
+
+/* Individual card styling */
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 900px; 
+  /* margin: 10px; */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.card h2 {
+  font-size: 2.5rem;
+  margin: 10px;
+  text-align: center;
+}
+
+.card p {
+  padding: 10px;
+  text-align: justify;
+  font-size: 2rem;
+}
+
+/* Adjust for responsiveness */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: flex-start; /* Align cards to the left even on small screens */
+    padding: 0; /* Remove padding for smaller screens */
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+/* .carousel-indicators {
+  display: none; 
+} */
+.swiper-pagination {
+  display: none;
+}
+
+/* Additional styling for the article content */
+#article .container .head-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 60%;
+  border: 10px solid rgb(226, 226, 226);
+}
+
+#article .container .details-container {
+  border: 1px solid lightgray;
+  padding-bottom: 30px;
+}
+
+#article .container .details-container p {
+  margin: 30px 30px 20px 30px;
+  font-size: 20px;
+}
+
+#article .container .details-container a {
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+#article .container .icons {
+  padding: 10px 0px 0px 30px;
+}
+
+#article .container .icons .fab {
+  padding: 0px 15px 0px 0px;
+}
+
+#article .container .icons i:hover {
+  transform: translate(0, -10px);
+  -webkit-transform: translate(0, -10px);
+  -o-transform: translate(0, -10px);
+  -moz-transform: translate(0, -10px);
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+
+#article .container .details-container .title {
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  padding-top: 12px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 28px;
+  height: 70px;
+}
+
+#article #articles {
+  margin-bottom: 90px;
+}
+nav {
+  background-color: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  font-size: 16px;
+}
+#donator .container {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 60000%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-bottom: 10%;
+  box-shadow: 2px 2px 5px 5px #e7e6e6;
+}
+ 
+/* #donator .container p{
+  margin: 50px 40px 50px 40px;
+  font-size: 20px;
+  color: gray;
+  text-align: justify;
+}
+  */
+#donator .container table tr th{
+  background-color: darkred;
+  color: white;
+  padding-left: 60px;
+   width: 800vw; 
+  
+}
+ 
+/* #donator .container table tr td{
+  padding-left: 20px;
+}
+  */
+/* #donator .container table tr{
+  margin-bottom: 30px;
+  border: 1px solid darkred;
+  border-radius: 10px;
+} */
+ 
+#donator .container table {
+  font-size: 28px;
+  border: 1px solid darkred;
+  border-radius: 10px;
+  width: 400%;
+}
+ 
+/* #donator .container iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}  */
+
+input[type="text"],  input[type="date"], input[type="tel"] {
+  width: 100%; /* Makes the input field take up 100% of the parent container */
+  padding: 20px; /* Adds padding inside the input for better appearance */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  height: 60%;
+  font-size: 30px;
+}
+
+/* For a specific form container, you can target it like this */
+.form-container input[type="text"], 
+.form-container input[type="date"] {
+  width: 1000%; /* Adjust the width as needed */
+  padding: 10px;
+  height: 100px;
+}
+.card {
+  margin: 10px; /* Add margin around cards */
+}
+
+.swiper-slide {
+  display: flex; /* Flexbox to allow cards to align properly */
+  justify-content: space-around; /* Space cards evenly */
+}
+#contact .container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+  height: 70vh; 
+}
+
+/* #contact .container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50%; 
+} */
+
+/* #contact .container .call {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+  margin: 0 auto 40px auto; 
+  box-shadow: 2px 2px 5px 5px #e7e6e6;
+  width: 50%; 
+} */
+/* #contact .container .info {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+  margin: 0 auto 40px auto; 
+  box-shadow: 2px 2px 5px 5px #e7e6e6;
+  width: 50%; 
+} */
+
+/* #contact .container .col-md-6 {
+  max-width: 100%; 
+} */
+
+/* #contact .container .call hr {
+  margin-bottom: 40px;
+  margin-top: 40px;
+} */
+/* 
+#contact .container .call h4 {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 18px; 
+  line-height: 1.5;
+} */
+
+/* #contact .container .call h3 {
+  margin: 40px 0px 30px 0px;
+  text-align: center;
+  color: darkred;
+}
+
+#contact .container .call .icons {
+  text-align: center;
+}
+
+#contact .container .call .icons .fab {
+  padding: 0px 15px 0px 15px;
+} */
+
+#contact .container .call .icons i:hover {
+  transform: translate(0, -10px);
+  -webkit-transform: translate(0, -10px);
+  -o-transform: translate(0, -10px);
+  -moz-transform: translate(0, -10px);
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+
+#contact .container .call .fa-facebook-square {
+  color: darkblue;
+}
+
+#contact .container .call .fa-whatsapp-square {
+  color: darkgreen;
+}
+
+#contact .container .call .fa-twitter-square {
+  color: blue;
+}
+
+#contact .container .call .fa-youtube-square {
+  color: darkred;
+}
+
+#contact .container .call .fa-google-plus-square {
+  color: orangered;
+}
+
+#contact .container .title {
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  padding-top: 12px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 28px;
+  height: 70px;
+}
+
+#contact .container form input {
+  width: 85%;
+  font-size: 20px;
+  height: 50px;
+  margin: 20px 0px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+#contact .container form textarea {
+  width: 85%;
+  font-size: 20px;
+  margin: 20px 0px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  border-radius: 5px;
+  resize: none;
+}
+
+#contact .container form button {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  margin-top: 5px;
+  background-color: darkred;
+  color: white;
+}
+
+#contact .container form button:hover {
+  background-color: rgba(9, 0, 29, 0.781);
+  color: white;
+}
+
+#contact .container form .reg-group {
+  text-align: center;
+  margin-top: 30px;
+}
+.details-container {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
