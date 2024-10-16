@@ -1,0 +1,161 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Swiper Container */
+  .swiper-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 40px 0;
+    background: #f3f4f6;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Swiper Wrapper */
+  .swiper-wrapper {
+    display: flex;
+  }
+  
+  /* Individual Slide Styling */
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
+    margin: 0 15px; /* Spacing between slides */
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .swiper-slide:hover {
+    transform: scale(1.05);
+    
+  }
+  
+  /* Slide Image */
+  .slide-image {
+    width: 100%;
+    height: 150px; /* Adjust height for a consistent look */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 230px;
+    transition-duration: 0ms;
+    transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(-50deg);
+    z-index: 0;
+  }
+
+  
+  /* Card Style for Testimonial Cards */
+  .card {
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Width of each card */
+  }
+  
+  /* Card Heading */
+  .card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Card Description */
+  .card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Donation Benefits Section */
+  .donation-section {
+    background: #eef1f4;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donation-section h2 {
+    font-size: 26px;
+    color: #007aff;
+    margin-bottom: 15px;
+  }
+  
+  .donation-section p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .details-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #007aff;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .details-button:hover {
+    background: #005bb5;
+  }
+  
+  /* Swiper Navigation Arrows */
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -20px;
+    cursor: pointer;
+  }
+  
+  /* Adjust Arrow Icons */
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 16px;
+    color: white;
+  }
+  
+  /* Pagination Styling */
+  .swiper-pagination-bullet {
+    background: #007aff;
+    opacity: 0.6;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #005bb5;
+    opacity: 1;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .swiper-slide {
+      width: 90%; /* Adjust slide width for smaller screens */
+    }
+  
+    .swiper-button-next, .swiper-button-prev {
+      display: none; /* Hide navigation buttons on mobile */
+    }
+  }
+  
